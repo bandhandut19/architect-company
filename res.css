@@ -29,6 +29,22 @@
         font-size: 2rem;
         
     }
+    .team{
+        flex-direction: column;
+    }
+    .team>div{
+        width: 100%;
+    }
+    .team-text{
+        text-align: center;
+    }
+    .team-text h2{
+        font-size: 2.5rem;
+    }
+    .team-text p{
+       
+        font-size: .9rem;
+    }
 }
 /* tablet or medium devices */
 
@@ -46,4 +62,12 @@
         font-size: 2rem;
         
     }
+    .team-text h2{
+        font-size: 2rem;
+    }
+    .team-text p{
+       
+        font-size: .8rem;
+    }
+    
 }
