@@ -147,6 +147,54 @@ main{
     font-weight: 400;
 }
 
+/* features section starts here */
+
+.features{
+    display: flex;
+    gap: 4rem;
+    margin-bottom: 10rem;
+}
+.features h3{
+    font-size: 2rem;
+    margin-bottom: .5rem;
+    border-left: .3rem solid var(--font-color-2);
+    padding: .5rem;
+}
+.features p{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.cards{
+    padding: .5rem 1rem;
+    border: 2px solid transparent;
+    box-shadow: 0px 5px 20px 0px var(--secondary-color);
+    border-radius: .5rem;
+    margin-bottom: 3rem;
+}
+.cards h4{
+    font-size: 1rem;
+}
+.cards p{
+    font-size: .8rem;
+}
+.feature-image img{
+    margin-left: 2.5rem;
+    height: 90%;
+}
+.experience{
+    background-color: var(--font-color-2);
+    color: #FFF;
+    width: 10rem;
+    height: 5rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 5px;
+    position: relative;
+    bottom: 5rem;
+}
+
 /* facts section starts here */
 .facts{
     margin-bottom: 5rem;

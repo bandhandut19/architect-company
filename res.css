@@ -1,18 +1,25 @@
 /* Mobile devices */
 
-@media screen and (max-width:576px){
-    nav{
+.hide {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    nav {
         flex-direction: column;
         /* padding: 0px 20px; */
         text-align: center;
     }
-    nav h3{
+
+    nav h3 {
         font-size: 2rem;
     }
-    header{
+
+    header {
         padding: 20px 0px;
     }
-    nav ul{
+
+    nav ul {
         flex-direction: column;
         margin-top: 10px;
         justify-content: center;
@@ -20,77 +27,138 @@
         padding-left: 1rem;
 
     }
-    .banner{
+
+    .banner {
         padding: 15px;
     }
-    nav li{
+
+    nav li {
         margin-top: 5px;
     }
+
     .banner-text h1 {
         font-size: 2rem;
-        
+
     }
-    .team{
+
+    .team {
         flex-direction: column;
     }
-    .team>div{
+
+    .team>div {
         width: 100%;
     }
-    .team-text{
+
+    .team-text {
         text-align: center;
     }
-    .team-text h2{
+
+    .team-text h2 {
         font-size: 2.5rem;
     }
-    .team-text p{
-       
+
+    .team-text p {
+
         font-size: .9rem;
     }
-    .stats-container{
+
+    /* features starts here */
+
+
+    .features {
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .feature-image img {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .experience {
+        margin: 0 auto;
+        width: 50%;
+        bottom: 4rem;
+    }
+
+
+
+
+    .stats-container {
         grid-template-columns: 1fr;
         gap: 2rem;
+
     }
-    .stats{
-        padding:1rem 0rem;
+
+    .stats {
+        padding: 1rem 0rem;
     }
-    .sponsors-container{
+
+    .sponsors-container {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
 }
+
 /* tablet or medium devices */
 
-@media screen and (min-width:576px) and (max-width:992px){
-    nav{
+@media screen and (min-width:576px) and (max-width:992px) {
+    nav {
         flex-direction: column;
         text-align: center;
         align-items: center;
         gap: 20px;
     }
-    nav ul{
+
+    nav ul {
         padding-left: 1rem;
     }
-    header{
+
+    header {
         padding: 30px;
     }
+
     .banner-text h1 {
         font-size: 2rem;
-        
+
     }
-    .team-text h2{
+
+    .team-text h2 {
         font-size: 2rem;
     }
-    .team-text p{
-       
+
+    .team-text p {
+
         font-size: .8rem;
     }
-  
-    .stats-container{
-        grid-template-columns: repeat(2,1fr);
+
+    /* features starts here */
+
+    .features {
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .feature-image img {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .experience {
+        margin: 0 auto;
+        width: 50%;
+        bottom: 4rem;
+    }
+    /* sponsors starts here */
+    .stats-container {
+        grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
-    .sponsors-container{
+
+    .sponsors-container {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+    /* footer section here */
+   
 }
