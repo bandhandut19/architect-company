@@ -1,0 +1,86 @@
+/* Tektur font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Tektur', cursive;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --primary-color: #131313;
+    --secondary-color: #727272;
+    --font-color: #FFF;
+}
+
+.btn-primary {
+    width: 150px;
+    height: 40px;
+    margin: 20px 0px;
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+    color: var(--font-color);
+}
+
+/* Header starts here */
+
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 40px 230px;
+    border: 2px solid red;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav h3{
+    font-size: 2rem;
+}
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+
+    margin-right: 20px;
+}
+nav li a{
+
+    color: var(--primary-color);
+}
+
+.banner {
+    text-align: center;
+    padding: 50px;
+}
+
+.banner-text {
+
+    max-width: 600px;
+    margin: 0px auto;
+    text-align: center;
+
+}
+
+.banner-text h1 {
+    color: var(--primary-color, #131313);
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.banner-text p {
+    color: var(--secondary-color);
+    padding-top: 0.5rem;
+}
+
+.banner-image img {
+    width: 100%;
+}
+
+
