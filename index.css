@@ -57,6 +57,7 @@ nav h3{
 nav>ul {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 nav li {
@@ -146,3 +147,46 @@ main{
     font-weight: 400;
 }
 
+/* facts section starts here */
+.facts{
+    margin-bottom: 5rem;
+}
+.facts h3{
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+.facts p{
+    font-size: 1rem;
+}
+.stats{
+    border: 2px solid var(--font-color-2);
+    border-radius: 10px;
+    margin-top: 2rem;
+    text-align: center;
+    padding: 2rem;
+    
+}
+.stats-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 8rem;
+}
+
+/* sponsors section starts here */
+
+.sponsors{
+    text-align: center;
+}
+.sponsors h3{
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+.sponsors p{
+    font-size: 1rem;
+}
+
+.sponsors-container{
+    margin: 3rem 0rem;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
